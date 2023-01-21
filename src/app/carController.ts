@@ -113,7 +113,7 @@ export class CarController {
       const cars = state.getCars();
       cars.forEach((car) => {
         if (car.id === response.success) {
-          // alert(`${car.name} wins this race!`);
+          alert(`In this race the winner is ${car.name}! Race one more time!`);
         }
       });
       return response;
