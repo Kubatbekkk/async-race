@@ -9,7 +9,7 @@
     --gold: #f3f1e9;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Roboto:wght@100;400;500&display=swap');
 
 /* Reset */
 
@@ -177,6 +177,10 @@ body {
 .footer-wrapper {
     width: 100%;
     background: var(--background);
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+
 }
 
 .footer-container {
@@ -330,12 +334,14 @@ body {
 }
 
 .car {
-    width: 5em;
-    height: 2.9em;
+    width: 4em;
+    height: 2.5em;
 }
 
 .car-title {
     color:var(--under-gold);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     font-size: 1em;
 }
 

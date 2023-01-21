@@ -33,7 +33,7 @@ export class Main implements MainModel {
                   Add cars
                 </button>
                 <button id="race-btn" class="garage-btns__item button">
-                  Let's race!
+                  Race
                 </button>
                 <button id="reset-btn" class="garage-btns__item button" disabled>
                   Reset race

@@ -8,7 +8,7 @@ export class Footer implements FooterModel {
         <footer class="footer-wrapper" id="footer">
             <div class="footer-container">
                 <div class="footer-git">
-                    <p class="footer-text">2022</p>
+                    <p class="footer-text">2023</p>
                     <a href="https://github.com/Kubatbekkk" class="github-link"></a>
                 </div>
                 <div class="footer-rss">
