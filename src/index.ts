@@ -1,1 +1,2 @@
-console.log('index.ts');
+console.log('izndex.ts');
+console.log('izndex.ts');
