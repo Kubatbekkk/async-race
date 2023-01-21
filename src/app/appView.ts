@@ -11,13 +11,13 @@ export class AppView implements ViewModel {
 
   public template: string;
 
-  public header;
+  public header: Header;
 
-  public main;
+  public main: Main;
 
-  public pagination;
+  public pagination: Pagination;
 
-  public footer;
+  public footer: Footer;
 
   public pagePaths: PagePaths;
 
