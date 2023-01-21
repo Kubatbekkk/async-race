@@ -1,14 +1,15 @@
 :root {
-    --background: black;
+    --body-background: rgba(220, 212, 212, 0.545);
+    --background: rgb(145, 145, 145);
     --color-input: #bdae82;
     --color-font: #F4F4F4;
     --rina: #32C2E2;
     --color-hover: #090D10;
-    --under-gold: #C8A65F;
-    --gold: #af9a1d;
+    --under-gold: #c8c4be;
+    --gold: #f3f1e9;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Roboto:wght@400;500&display=swap');
 
 /* Reset */
 
@@ -138,11 +139,11 @@ body {
 
 .button {
     background: var(--under-gold);
-    border-radius: 3em;
+    border-radius: 2px;
     padding: 0.2em;
     height: 2.5em;
     width: 8em;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: medium;
     font-weight: 400;
     font-size: 1.1em;
@@ -161,7 +162,7 @@ body {
 }
 
 .header-container__title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 3.3em;
     line-height: 1em;
@@ -195,7 +196,7 @@ body {
 }
 
 .footer-git{
-    display: flex;  
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 5em;
@@ -223,7 +224,7 @@ body {
 }
 
 .footer-text {
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     font-style: medium;
     font-weight: 400;
     font-size: 1.2px;
@@ -249,10 +250,7 @@ body {
 
 
 .main-container {
-    background: url(./assets/images/underground.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: var(--body-background);
     display: flex;
     flex-direction: column;
     min-height: 80vh;
@@ -262,7 +260,7 @@ body {
 }
 
 .main-container__title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 3em;
     line-height: 1em;
@@ -315,7 +313,7 @@ body {
 }
 
 .line {
-    border: none; 
+    border: none;
     background: var(--under-gold);
     height: 1.6px;
     width: 100%;
@@ -406,11 +404,11 @@ body {
 
 .track-btn {
     background: var(--under-gold);
-    border-radius: 2em;
+    border-radius: 2px;
     padding: 3px;
     height: 2em;
     width: 5em;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: medium;
     font-weight: 400;
     font-size: 1em;
@@ -430,7 +428,7 @@ body {
 }
 
 .track-btn:disabled {
-    background: transparent;
+    background: var(--background);
     color: transparent;
     border: 2px solid var(--under-gold);
     cursor: default;
@@ -467,10 +465,10 @@ td {
 
 .garage-input__item {
     border: 0.15em solid var(--under-gold);
-    border-radius: 3em;
+    border-radius: 2px;
     background: rgba(0, 0, 0, 0.5);
     height: 2.8em;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 1.1em;
@@ -480,11 +478,11 @@ td {
 
 input.garage-input__item {
     color: var(--under-gold);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.1em;
-    padding-left: 1em;;
+    padding-left: 1em;
 }
 
 input:disabled {
@@ -500,9 +498,9 @@ input:disabled::placeholder {
 input.palette {
     background: var(--under-gold);
     width: 4em;
-    border-radius: 3em;
+    border-radius: 2px;
     cursor: pointer;
-    padding: 0.1em 0.6em;
+    padding-left: 0;
 }
 
 input.palette:disabled {
@@ -671,7 +669,7 @@ progress::-webkit-progress-value {
         width: 1.5em;
         height: 1.5em;
     }
-    
+
     .mute {
         background-size: 1.5em;
         margin-right: 0;
