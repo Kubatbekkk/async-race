@@ -15,7 +15,7 @@
         "project": "tsconfig.json"
     },
     "plugins": [
-        "import", 
+        "import",
         "@typescript-eslint"
     ],
     "rules": {
@@ -26,6 +26,7 @@
         "class-methods-use-this": "off",
         "linebreak-style":0,
         "@typescript-eslint/no-explicit-any": 2,
-        "no-shadow": "off"
+        "no-shadow": "off",
+        "no-alert": "off"
     }
 }

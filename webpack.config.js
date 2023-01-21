@@ -57,7 +57,7 @@ const baseConfig = {
     new CopyPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, 'src/assets'),
+          from: path.resolve(__dirname, 'src/assets/images'),
           to: path.resolve(__dirname, './dist/assets/images')
         }
       ]
