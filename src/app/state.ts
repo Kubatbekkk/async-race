@@ -145,6 +145,9 @@ class State {
   }
 
   public getWinners(): GetWinners[] {
+    this.state = {
+      ...this.state, winners: []
+    };
     return this.state.winners;
   }
 
